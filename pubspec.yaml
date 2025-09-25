@@ -1,0 +1,36 @@
+name: eq_repair_app
+description: Earthquake repair booking demo (Flutter)
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  go_router: ^14.2.7
+  dio: ^5.6.0
+  intl: ^0.19.0
+  qr_flutter: ^4.1.0
+  flutter_svg: ^2.2.1
+  google_fonts: ^6.2.1
+  # fl_chart: ^1.1.0
+  # badges: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/png/calendar_check.png
+    - assets/icons/png/clipboard_check.png
+    - assets/icons/png/pencil_design.png
+    - assets/icons/png/building_construct.png
+    - assets/icons/svg/calendar_check.svg
+    - assets/icons/svg/clipboard_check.svg
+    - assets/icons/svg/pencil_design.svg
+    - assets/icons/svg/building_construct.svg
