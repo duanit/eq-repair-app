@@ -1,2 +1,6 @@
 /.dart_tool
+/.idea
 .flutter-plugins
+/build
+.flutter-plugins-dependencies
+/android
